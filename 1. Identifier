@@ -1,5 +1,6 @@
-# Compiler-Design
-#Input a string and determine it is identifier or not
+// Compiler-Design
+//Input a string and determine it is identifier or not
+// Input and output must be taken by file and sample input output are given below
 
 #include<stdio.h>
 #include<ctype.h>
@@ -35,8 +36,18 @@ int main()
         if(n=='3')
             fprintf(fp2,"Identifier\n");
         else
-            fprintf(fp2,"Not\n");
+            fprintf(fp2,"Not Identifier\n");
     }
 
     return 0;
 }
+
+------------------------------------------------------------------------------------------------------------------------
+Inputs:                              Outputs:
+a                                   Identifier
+1abc                                Not Identifier
+sum                                 Identifier
+sum_of                              Identifier
+add1                                Identifier
+price$                              Not Identifier
+take-add                            Not Identifier
