@@ -1,0 +1,4 @@
+Total number of character = 128
+Total number of space  =  23
+Total number of line  =  11
+Total number of alphabet  =  94
